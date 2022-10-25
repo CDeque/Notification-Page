@@ -6,7 +6,9 @@ const Header = () => {
       <h1>
         Notifications <span>3</span>
       </h1>
-      <p className="mark-all">Mark all as read</p>
+      <a href="#">
+        <p className="mark-all">Mark all as read</p>
+      </a>
     </header>
   );
 };

@@ -1,0 +1,37 @@
+.notification {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  padding: 0px 10px;
+  margin: 5px 20px;
+  border-radius: 7px;
+
+  .avatar {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+  span {
+    height: 5px;
+    width: 5px;
+    background-color: hsl(1, 90%, 64%);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0px;
+    .user-text,
+    .date {
+      margin: 0;
+      font-size: 13px;
+    }
+  }
+}
+.active {
+  background-color: hsl(210, 60%, 98%);
+}
